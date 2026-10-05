@@ -1,9 +1,7 @@
 #!/usr/bin/env python3
-"""Monitor de Retira Fácil: mostra o tempo restante de cada remessa pendente.
+Monitor de Retira Fácil: mostra o tempo restante de cada remessa pendente.
 
-Lê um CSV exportado do sistema e exibe uma contagem regressiva ordenada
-pela remessa mais urgente. Usa apenas a biblioteca padrão do Python.
-"""
+
 import argparse
 import csv
 import os
@@ -112,7 +110,7 @@ def main():
     parser.add_argument("--uma-vez", action="store_true", help="mostra uma vez e sai")
     args = parser.parse_args()
 
-    os.system("")  # habilita cores ANSI no terminal do Windows
+    os.system("")  
     try:
         while True:
             try:
