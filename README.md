@@ -1,4 +1,4 @@
-# ⏱️ Monitor de Retira Fácil
+#  Monitor de Retira Fácil
 
 Contagem regressiva para remessas de **retira fácil**: quando o cliente está
 esperando no balcão e a separação precisa ser concluída em até **20 minutos**
@@ -73,7 +73,7 @@ O arquivo precisa ter estas colunas (separador `;` ou `,`):
 O monitor relê o arquivo a cada atualização. Se o arquivo for substituído por
 uma exportação nova, a tela já reflete os dados novos.
 
-## ⚠️ Privacidade
+##  Privacidade
 
 Nunca suba dados reais da empresa para o GitHub. A pasta `dados/` está no
 `.gitignore` justamente para isso. Todos os exemplos deste repositório são fictícios.
@@ -93,6 +93,3 @@ Nunca suba dados reais da empresa para o GitHub. A pasta `dados/` está no
 - [ ] Relatório diário: % de remessas atendidas dentro do prazo
 - [ ] Testes automatizados com `pytest`
 
-## Licença
-
-MIT. Veja [LICENSE](LICENSE).
