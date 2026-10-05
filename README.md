@@ -22,7 +22,7 @@ real, as remessas pendentes ordenadas da mais urgente para a menos urgente:
 | 🔴 CRÍTICA  | menos de 5 min |
 | 🔴 ATRASADA | prazo estourado (tempo negativo) |
 
-Pode ser visto no terminal do computador ou, melhor ainda, **no navegador do próprio coletor** (veja abaixo).
+O monitor é executado diretamente no terminal do computador.
 
 ## Como usar
 
@@ -43,11 +43,6 @@ python monitor.py arquivo.csv --limite-kg 400 --sla-min 20 --intervalo 1
 python monitor.py arquivo.csv --uma-vez   # mostra uma vez e sai
 ```
 
-## Usando no coletor
-
-```bash
-python servidor.py dados/exemplo.csv
-```
 
 O servidor mostra um endereço como `http://192.168.0.15:8000`. Com o coletor na
 mesma rede Wi-Fi, abra esse endereço no navegador dele. A página exibe um card por
@@ -89,7 +84,7 @@ Nunca suba dados reais da empresa para o GitHub. A pasta `dados/` está no
 ## Próximos passos
 
 - [ ] Alerta sonoro quando uma remessa ficar crítica
-- [x] Versão web para o navegador do coletor
+- [ ] Versão web para o navegador do coletor
 - [ ] Relatório diário: % de remessas atendidas dentro do prazo
 - [ ] Testes automatizados com `pytest`
 
